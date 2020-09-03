@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-weight: 400;
+    background-color: #F5F6FA !important;
+    color: #526484;
+    font-family: 'Nunito Sans', sans-serif !important;
+    box-sizing: border-box;
+}
+*:focus{
+    box-shadow: none !important;
+}
+.navbar-toggler{
+    outline: 0 !important;
+}
+
+/* navbar */
+.navbar-bg{
+    background: #29347a;
+    border-color: #3644a0;
+    color: white;
+}
+.nav-item{
+    padding: 0px 1rem;
+}
+.nav-link{
+    font-size: 14px;
+    color: #c4cefe;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+}
+.nav-link:hover{
+    color: white;
+}
+.nav-menu{
+    padding: 0 10px;
+    cursor: pointer;
+}
+.side-notification .user-status{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    color: red;
+}
+.side-notification .fa{
+    font-size: 23px;
+}
+.side-notification .dropdown-toggle{
+    color: #c4cefe;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 700;
+}
+.side-notification .dropdown-toggle:hover{
+    color: white;
+    text-decoration: none;
+}
+.fa-bell-o{
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+/* CONTENT */
+.content{
+    padding: 36px 24px;
+}
+.welcome-msg .welcome-text{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: .5rem;
+    color: #8094ae;
+    font-weight: 400;
+}
+.welcome-msg .username{
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1.1;
+    color: #364a63;
+    margin-bottom: .5rem;
+}
+.welcome-msg .plans-btn{
+    margin-left: 20px;
+    border: 1px solid transparent;
+    vertical-align: middle;
+    padding: .375rem 1.125rem;
+    font-size: .8125rem;
+    font-weight: 700;
+    line-height: 1.25rem;
+    border-radius: 4px;
+    background-color: white;
+}
+.para-text{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: .5rem;
+    color: #8094ae;
+    font-weight: 400;
+}
+.active-plans{
+    position: relative;
+    width: 292px;
+    padding: 1rem 1.25rem;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius:0px;
+    border-bottom-left-radius: 0px;
+    color: #6576ff;
+    border: 1px solid #dbdfea;
+    background: #fff;
+}
+.active-plans-details{
+    max-width: 100%;
+}
+.active-plan-text{
+    font-size: 13px;
+    margin-bottom: 0.5rem;
+}
+.plans-type{
+    font-weight: 400;
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+}
+.check-details{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.progress {
+    background: #e6edf9;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 4px;
+}
+.progress-bar{
+    width: 80%;
+}
+
+
+/*  */
+.investment-cards{
+    margin-top: 50px;
+}
+.avialable-bal-col{
+    background: #2c3782;
+    padding: 1.5rem;
+    border-radius: 4px;
+}
+.avialable-bal-text{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    color: #c4cefe;
+}
+.avialable-bal{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+   
+}
+.avialable-bal .amount{
+    letter-spacing: -0.03em;
+    line-height: 1.15em;
+    color: white;
+    margin-bottom: 0px;
+    font-size: 2rem;
+}
+.change{
+    font-size: 0.875rem;
+    color: #6576ff;
+    font-weight: 700;
+    letter-spacing: normal;
+}
+.total-bal-invested{
+    background: white;
+    padding: 1.5rem;
+    border-radius: 4px;
+}
+.total-bal-text{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    color: #8094ae;
+}
+.total-bal-invested .avialable-bal .amount{
+    color: #526484;
+}
+.total-bal-invested-col .progress-bar{
+    background-color: #364a63;
+}
+.total-profit .progress-bar{
+    background-color: #1ee0ac;
+}
+.change.up {
+    color: #1ee0ac !important;
+}
+.change.down {
+    color: #e85347 !important;
+}
+/*  */
+.cards-row{
+    margin-top: 100px;
+}
+.cards {
+    padding: 1.5rem;
+    background-color: white;
+}
+.card-title{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    color: #8094ae;
+}
+.card-amount{
+    font-size: 1.875rem;
+    border-bottom: 2px solid #6576ff;
+    padding-bottom: 1.25rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+.sub {
+    font-size: 0.875rem;
+    padding-left: 0.5rem;
+    line-height: 1;
+}
+.card-list{
+    list-style: none;
+}
+.card-list li{
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+.item-label{
+    font-size: 14px;
+}
+.item-label a {
+    font-size: 12px;
+    color: #798bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.my-investment .item-label{
+    font-size:  12.04px;
+ }
+.card-list li .item-value{
+    font-weight: 500;
+    font-size: 13px;
+    color: #364a63;
+    float: right;
+}
+.card-list .total{
+    border-top: 1px solid #dbdfea;
+    margin-top: 0.3rem;
+    padding-top: 0.55rem;
+    font-weight: 700;
+}
+.card-btns{
+    margin-top: auto;
+}
+.btn-extra {
+    margin-top: 1rem;
+    min-height: 28px;
+    text-align: center;
+}
+.btn-extra a{
+    color: black;
+}
+.btn-extra a:hover{
+    text-decoration: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #6576ff;
+    border-color: #6576ff;
+}
+/*  */
+.referrals div.col-lg-6{
+    padding: 1.5rem;
+    margin-top: 20px;
+    background-color: white;
+}
+.nk-refwg-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+}
+
+.clipboard-init {
+    cursor: pointer;
+}
+.form-clip, .form-text-hint {
+    position: absolute;
+    right: 19px;
+    top: 83px;
+    bottom: 1px;
+    display: flex;
+    align-items: center;
+    color: #6576ff;
+    padding-left: 1rem;
+    padding-right: .75rem;
+    background: transparent;
+    border-radius: 4px;
+}
+
+
+@media (max-width: 1199.98px) { 
+    .nav-item{
+        padding: 0px .5rem;
+    }
+
+ }
+
+
+@media (max-width: 991.98px) { 
+    .nav-menu{
+        padding: 0px 20px;
+    }
+    .side-notification .fa{
+        font-size: 20px;
+    }
+    .active-plans{
+        width: 260px;
+    }
+    .welcome-msg .username{
+        font-size: 28px;
+    }
+    .para-text{
+        font-size: 14px;
+    }
+    .avialable-bal-col, .total-bal-invested-col{
+        width: 48%;
+    }
+    .total-profit{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .cards-row div{
+        margin-top: 20px;
+    }
+
+
+ }
+
+
+@media (max-width: 767.98px) { 
+    
+.navbar {
+    padding: .5rem 0px;
+    justify-content: left;
+}
+.nav-menu{
+    padding: 0px 10px;
+}
+.navbar-toggler{
+    padding: .25rem .3rem;
+}
+.welcome-msg .plans-btn{
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+.avialable-bal-col, .total-bal-invested-col, .total-profit{
+    margin-top: 10px;
+    width: 100%;
+}
+
+ }
+
+@media (max-width: 575.98px) { 
+
+}
